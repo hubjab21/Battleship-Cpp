@@ -31,11 +31,18 @@ The board size is configurable, and the game tracks player performance based on 
 2. Ships are randomly placed on the board.
 3. The player enters coordinates (x, y).
 4. The system checks:
-
-   * hit ✔
-   * miss ❌
-   * already used position ⚠️
 5. The game ends when all ships are found.
+
+---
+## 🧩 Board Symbols
+
+The game uses the following symbols to represent the board state:
+
+- `#` – unknown field (not yet checked)
+- `$` – hit (ship found)
+- `!` – miss (no ship)
+
+⚠️ Note: Ships are hidden during the game and are not displayed on the board.
 
 ---
 
@@ -75,15 +82,21 @@ g++ -std=c++17 -O2 -Wall battleship.cpp -o battleship
 
 ## 🧪 Example Gameplay
 
-```text
-Enter board size in range 2 to 9: 5
+### 🔹 Game Start
 
-Ships remaining to find: 6. Enter position x y: 2 3
-Hit!
+![Game Start](images/game-start.png)
 
-Ships remaining to find: 5. Enter position x y: 1 1
-Miss!
-```
+---
+
+### 🔹 Initial Board
+
+![Game Board](images/game-board.png)
+
+---
+
+### 🔹 Hit Example
+
+![Game Hit](images/game-hit.png)
 
 ---
 
