@@ -80,7 +80,11 @@ public:
         cout << endl;
         cout << "Masz do zgadnięcia jeszcze " << ilosc - licz << " Wypisz pozycje x y : ";
         cin >> y >> x;
-        system("cls");
+	#ifdef _WIN32
+    		system("cls");
+	#else
+    		system("clear");
+	#endif
         if (x == 0 || y == 0)
         {
             cout << "Wypisz pozycje x y jeszcze raz w poprawnym miejscu zamiast w 0 0: " << endl
