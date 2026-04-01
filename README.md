@@ -5,7 +5,7 @@ The project focuses on fundamental programming concepts, dynamic data structures
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a simplified version of the Battleship game, where ships are randomly placed on a square board and the player tries to find them by entering coordinates.
 
@@ -13,19 +13,19 @@ The board size is configurable, and the game tracks player performance based on 
 
 ---
 
-## 🚀 Features
+## Features
 
-* dynamic board size (2–9)
-* random ship placement
-* turn-based gameplay
-* hit/miss detection
-* prevention of repeated moves
-* game timer (time to win)
-* console-based UI
+- dynamic board size (2–9)
+- random ship placement
+- turn-based gameplay
+- hit/miss detection
+- prevention of repeated moves
+- game timer (time to win)
+- console-based UI
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The user selects the board size.
 2. Ships are randomly placed on the board.
@@ -34,7 +34,7 @@ The board size is configurable, and the game tracks player performance based on 
 5. The game ends when all ships are found.
 
 ---
-## 🧩 Board Symbols
+## Board Symbols
 
 The game uses the following symbols to represent the board state:
 
@@ -42,19 +42,19 @@ The game uses the following symbols to represent the board state:
 - `$` – hit (ship found)
 - `!` – miss (no ship)
 
-⚠️ Note: Ships are hidden during the game and are not displayed on the board.
+ Note: Ships are hidden during the game and are not displayed on the board.
 
 ---
 
 ## 🛠️ Technologies
 
-* C++
-* STL (vector, random)
-* Console I/O
+- C++
+- STL (vector, random)
+- Console I/O
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Compile
 
@@ -70,7 +70,7 @@ g++ -std=c++17 -O2 -Wall battleship.cpp -o battleship
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -80,49 +80,49 @@ g++ -std=c++17 -O2 -Wall battleship.cpp -o battleship
 
 ---
 
-## 🧪 Example Gameplay
+## Example Gameplay
 
-### 🔹 Game Start
+### Game Start
 
 ![Game Start](images/game-start.png)
 
 ---
 
-### 🔹 Initial Board
+### Initial Board
 
 ![Game Board](images/game-board.png)
 
 ---
 
-### 🔹 Hit Example
+### Hit Example
 
 ![Game Hit](images/game-hit.png)
 
 ---
 
-## 📈 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I worked on:
 
-* object-oriented programming (C++)
-* working with dynamic 2D arrays (vector)
-* random number generation
-* console-based UI design
-* implementing game logic and validation
-* writing clean and readable code
+- object-oriented programming (C++)
+- working with dynamic 2D arrays (vector)
+- random number generation
+- console-based UI design
+- implementing game logic and validation
+- writing clean and readable code
 
 ---
 
-## 🔧 Possible Improvements
+## Possible Improvements
 
-* graphical interface (SFML / SDL)
-* better input validation
-* difficulty levels
-* smarter ship placement algorithm
-* multiplayer mode
+- graphical interface (SFML / SDL)
+- better input validation
+- difficulty levels
+- smarter ship placement algorithm
+- multiplayer mode
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Hubert Jabłoński
